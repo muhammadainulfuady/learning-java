@@ -28,7 +28,7 @@ public class FloatingPointNumber {
         // = 10 * 16 * 16
         // = 11 * 16
         // = 12
-        // angka 16 tergantung banyaknya angka di kanan dari angka hexa pertama
+        // angka itu 16 tergantung banyaknya angka di kanan dari angka hexa pertama
         int intBin = 0b1010; // 0xsetelahya angka biner
 
         // kita juga bisa menggunakan underscore saat memberikan nilai kepada variable

@@ -49,5 +49,29 @@ public class IntegerNumber {
         // program menggunakan long
         long regKampung = 92235807;
         System.out.println(regKampung);
+
+        // contoh konversi tipe data number
+        // urutan terurut -> dari kecil ke besar
+        // Widening Casting (Otomatis) : byte -> short -> int -> long -> float -> double
+
+        // urutan tidak terurut -> dari besar ke kecil
+        // Narrowing Casting (Manual) : double -> float -> long -> int -> char -> short
+        // -> byte
+
+        // widening casting
+        byte iniByte = 20;
+        short iniShort = iniByte;
+        int iniInt = iniShort;
+        long iniLong = iniInt;
+        float iniFloat = iniLong;
+        double iniDouble = iniFloat;
+        System.out.println(iniDouble);
+
+        // narrowing casting
+        double iniDouble2 = 2000.000;
+        float iniFloat2 = (float) iniDouble2;
+        int iniInt2 = (int) iniFloat2;
+        short iniShort2 = (short) iniInt2;
+        System.out.println(iniShort2);
     }
 }
