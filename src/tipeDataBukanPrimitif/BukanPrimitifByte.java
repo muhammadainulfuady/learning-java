@@ -1,4 +1,3 @@
-package tipeDataBukanPrimitif;
 
 public class BukanPrimitifByte {
     public static void main(String[] args) {
