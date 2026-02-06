@@ -19,7 +19,6 @@ public class Mematikan {
         char idGerbangTerakhir = idGerbang.charAt(indexID);
         int biayaTambahan;
 
-        System.out.println(idGerbangTerakhir);
         switch (idGerbangTerakhir) {
             case 'A' -> biayaTambahan = 50;
             case 'B' -> biayaTambahan = 100;
