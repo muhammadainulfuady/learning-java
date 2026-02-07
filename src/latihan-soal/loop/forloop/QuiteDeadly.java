@@ -9,9 +9,8 @@ public class QuiteDeadly {
         int multiplier;
         int risk = 0;
         System.out.println("=== SCANNING BLACK MARKET DATABASE ===");
-        for (int idx = 0; idx < blackMarket.length; idx++) {
-            for (int idx2 = 0; idx2 < blackMarket.length; idx2++) {
-                Integer numberInArray = blackMarket[idx][idx2];
+        for (int[] row : blackMarket) {
+            for (int numberInArray : row) {
                 if (numberInArray == 0) {
                     System.out.println("[EMPTY]");
                 } else {
