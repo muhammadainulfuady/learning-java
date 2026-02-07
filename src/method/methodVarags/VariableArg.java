@@ -18,7 +18,5 @@ public class VariableArg {
         System.out.println("Total Awal      :" + totalHarga);
         System.out.println("Potongan        :" + potonganHarga);
         System.out.println("Total bayar     :" + totalBayar);
-
-        
     }
 }
